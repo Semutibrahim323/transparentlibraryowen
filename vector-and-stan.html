@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<style type="text/css">
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:860px}.navbar{margin-bottom:25px;border-bottom:1px solid #eee}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0;border-color:#eee}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#f1f2f3}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#f42966;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}
+	</style>
+	<title>vector and stan</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vyantagc/vyantagc/popme-style.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://cdn.statically.io">
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/ars-img2.js"></script>
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/pub-img2.js"></script>
+<!--ads/auto.txt-->
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/top-a.js"></script>
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/top-b.js"></script></head>
+<body>
+	<main id="main">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+			<div class="container">
+		  <a href="index.html" class="navbar-brand">PNG Collection</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+								<li class="nav-item"><a class="nav-link" href="copyright.html">Copyright</a></li>
+								<li class="nav-item"><a class="nav-link" href="dmca.html">Dmca</a></li>
+								<li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+							</ul>
+			</div>
+		  </div>
+		</nav>
+		<div class="container">
+			<div class="row content">
+				<div class="col-md-12">
+					<div class="col-sm-12">
+
+							<h1>vector and stan</h1>
+
+	<div class="navi text-left">
+        <p>Art of stan. Stan by loopydave on deviantart. Stan decal sticker <br>
+                            <a class="badge badge-success" href="vector-and-stan.html">vector and stan</a>
+                    </p>
+	</div>
+
+						
+					</div>
+					<div class="col-sm-12">
+						<p>Sc Palmetto Tree - White Clip Art at Clker.com - vector clip art online. 13 Pictures about Sc Palmetto Tree - White Clip Art at Clker.com - vector clip art online : Vector And Stan at Vectorified.com | Collection of Vector And Stan free, Stan Vector by LukeFielding on DeviantArt and also What does Stan’s symbol mean?.</p>
+	<script type="text/javascript">
+	atOptions = 
+		'key' : 'cf872adf3c677984ad3eb9fb1aa7d6ce',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : 
+	;
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://cdn.statically.io/gh/luqmanhakim721/cf872adf3c677984ad3eb9fb1aa7d6ce/main/invoke.js"></scr' + 'ipt>');
+</script>
+    
+    <h2>Sc Palmetto Tree - White Clip Art At Clker.com - Vector Clip Art Online</h2>
+
+    <img alt="Sc Palmetto Tree - White Clip Art at Clker.com - vector clip art online" src="http://www.clker.com/cliparts/3/D/0/B/c/o/sc-palmetto-tree-white.svg" width="100%" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th?id=OIP.nTaAJPY_STULO9srKOLzAQHaE8&amp;pid=15.1';" />
+
+    <small>www.clker.com</small>
+    <p>palmetto clker</p>
+    
+    <h2>What Does Stan’s Symbol Mean?</h2>
+
+    <img alt="What does Stan’s symbol mean?" src="https://66.media.tumblr.com/4d71c01a2a68fee4a42162dd3bc910aa/tumblr_inline_oqmbv2e0mv1rzr5tb_1280.png" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.BPbYh800sThCI8_IoMWm6gHaEJ&amp;pid=15.1';" />
+
+    <small>eregyrn-falls.tumblr.com</small>
+    <p>falls finale soon coming guys still gravity stan settled haven imgur con dipper cane he stans</p>
+    
+    <h2>Stan : Drawing</h2>
+
+    <img alt="Stan : drawing" src="https://preview.redd.it/dkm45ywtb9c31.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a63dbced1d762d7c9640864de983a8bc7f8cd789" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.9SHLuxUG9IOlIRpCc2i-9AHaIB&amp;pid=15.1';" />
+
+    <small>www.reddit.com</small>
+    <p>stan</p>
+    
+    <h2>Browse Thousands Of Stan Images For Design Inspiration | Dribbble</h2>
+
+    <img alt="Browse thousands of Stan images for design inspiration | Dribbble" src="https://cdn.dribbble.com/users/9679/screenshots/5571956/stan-01_4x.jpg?compress=1&amp;resize=800x600" width="100%" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th?id=OIP.vOxyyeyPAmIDyF6aIbR89wHaFj&amp;pid=15.1';" />
+
+    <small>dribbble.com</small>
+    <p></p>
+    
+    <h2>Stan Lee - Death, Life &amp; Cameos - Biography</h2>
+
+    <img alt="Stan Lee - Death, Life &amp; Cameos - Biography" src="https://www.biography.com/.image/t_share/MTIwNjA4NjM0MTk3MjE0NzMy/stan-lee-21101093-1-402.jpg" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.8aS_pHjraSLkZYcf_sK7JAHaHa&amp;pid=15.1';" />
+
+    <small>www.biography.com</small>
+    <p>stan ourbiography swashvillage ternopilinkling kimdir bilgiler pratik biografie</p>
+    
+    <h2>Stan Vector By LukeFielding On DeviantArt</h2>
+
+    <img alt="Stan Vector by LukeFielding on DeviantArt" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/e79bf9f0-6144-46dc-8f57-46291f6ed153/d5ug9kv-4f9bce95-660b-4c79-8341-3d161f6ffcc2.png/v1/fill/w_720,h_549,q_80,strp/stan_vector_by_lukefielding_d5ug9kv-fullview.jpg" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.YRpJLa483iKTj7N6aeaW7QHaFp&amp;pid=15.1';" />
+
+    <small>www.deviantart.com</small>
+    <p>lukefielding</p>
+    
+    <h2>Art Of Stan</h2>
+
+    <img alt="Art of Stan" src="https://coyo.tl/images/gallery/icons/icon6.png" width="100%" onerror="this.onerror=null;this.src='https://tse2.mm.bing.net/th?id=OIP.WB1ZM-wpxYUQHhLwl5BlIgHaHa&amp;pid=15.1';" />
+
+    <small>coyo.tl</small>
+    <p>coyo</p>
+    
+    <h2>Stan By Loopydave On DeviantArt</h2>
+
+    <img alt="Stan by Loopydave on DeviantArt" src="http://orig10.deviantart.net/7c27/f/2009/092/c/1/stan_by_loopydave.jpg" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.i8CT2fC5QjXLEZSG0tAREAHaM8&amp;pid=15.1';" />
+
+    <small>loopydave.deviantart.com</small>
+    <p>loopydave stan blakey deviantart inspector buses</p>
+    
+    <h2>Stan Png 10 Free Cliparts | Download Images On Clipground 2021</h2>
+
+    <img alt="stan png 10 free Cliparts | Download images on Clipground 2021" src="https://clipground.com/images/stan-png-4.png" width="100%" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.mJ_o8lYdrEAmaiCnCae2KwAAAA&amp;pid=15.1';" />
+
+    <small>clipground.com</small>
+    <p>stan clipground</p>
+    
+    <h2>Vector And Stan At Vectorified.com | Collection Of Vector And Stan Free</h2>
+
+    <img alt="Vector And Stan at Vectorified.com | Collection of Vector And Stan free" src="https://vectorified.com/image/vector-and-stan-6.jpg" width="100%" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.nDCHGEP4C4IkxXdaeW0fNQHaFP&amp;pid=15.1';" />
+
+    <small>vectorified.com</small>
+    <p>grunkle</p>
+    
+    <h2>Stan :) | Flickr</h2>
+
+    <img alt="Stan :) | Flickr" src="https://live.staticflickr.com/698/21626341448_bf3d1ebb22_h.jpg" width="100%" onerror="this.onerror=null;this.src='https://tse4.mm.bing.net/th?id=OIP.c3vJt6HRmUCQKIccAoxPOwHaE6&amp;pid=15.1';" />
+
+    <small>www.flickr.com</small>
+    <p>stan flickr</p>
+    
+    <h2>Stan Decal Sticker</h2>
+
+    <img alt="Stan Decal Sticker" src="https://stickthisgraphics.com/images/1294622274896-1432790376.jpeg" width="100%" onerror="this.onerror=null;this.src='https://tse3.mm.bing.net/th?id=OIP.hNeGb7oxPi1HuK12jTwJHQAAAA&amp;pid=15.1';" />
+
+    <small>stickthisgraphics.com</small>
+    <p>stan decal sticker</p>
+    
+    <h2>16 Amazing Art Tribute To Marvel Comic Book Legend Stan Lee</h2>
+
+    <img alt="16 Amazing Art Tribute To Marvel Comic Book Legend Stan Lee" src="https://i.redd.it/kysesxv4izx11.png" width="100%" onerror="this.onerror=null;this.src='https://tse1.mm.bing.net/th?id=OIP.GFNc5LDg75B-zv5OKfx7OQHaKX&amp;pid=15.1';" />
+
+    <small>webgyaani.com</small>
+    <p>stan lee tribute comic marvel legend amazing</p>
+
+<p>Stan lee tribute comic marvel legend amazing. Stan lee. Falls finale soon coming guys still gravity stan settled haven imgur con dipper cane he stans</p>
+					</div>
+				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="contact.html">Contact</a>
+										<a href="copyright.html">Copyright</a>
+										<a href="dmca.html">Dmca</a>
+										<a href="privacy-policy.html">Privacy Policy</a>
+					
+				</div>
+			</div>
+		</div>
+		<!-- <style>
+	#topbar{  background:#ddd;  width:100%;  text-align:center;  color:#333;  padding:5px;  overflow:hidden;  height:89px;  z-index:1000;  font-family:Georgia;  font-size:17px;  line-height:30px;  position:fixed;  bottom:0;  left:0;  border-top:3px solid #26ADE4;  box-shadow:0 1px 5px rgba(0,0,0,.7);
+	}
+
+	#topbar a{-webkit-box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px; background:#26ADE4;  border-bottom-left-radius:4px;  border-bottom-right-radius:4px;  border-top-left-radius:4px;  border-top-right-radius:4px;  border:none;  box-shadow:rgba(0,0,0,0.278431) 1px 1px 3px;  color:white;  cursor:pointer;  font-size:0.95em;  margin:0px 0px 0px 7px;  outline:none;  padding:5px 13px 5px;  position:relative;  text-decoration:initial;
+		font-size:19px;
+	}
+
+	#topbar a:hover{  cursor:pointer;background:#444}
+
+	#topbar a:active{  top:1px}
+
+</style>
+
+<div id='topbar'>
+	<p> 
+	  	<br>
+	
+	</p>
+</div> -->		<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/social.js"></script>
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/footer.js"></script>
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/stats2.js"></script>
+<script type="text/javascript" src="https://cdn.statically.io/gh/luqmanhakim721/js/main/footer2.js"></script>	</main>
+</body>
+</html>
